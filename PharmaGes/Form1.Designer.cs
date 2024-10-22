@@ -151,7 +151,7 @@
             MercaciaBtn.Padding = new Padding(12, 0, 0, 0);
             MercaciaBtn.Size = new Size(220, 60);
             MercaciaBtn.TabIndex = 1;
-            MercaciaBtn.Text = "   Mercacia";
+            MercaciaBtn.Text = "   Mercancia";
             MercaciaBtn.TextAlign = ContentAlignment.MiddleLeft;
             MercaciaBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
             MercaciaBtn.UseVisualStyleBackColor = true;

@@ -397,7 +397,7 @@ namespace PharmaGes
 
         private void GuardarFactura()
         {
-            int usuario_id = 3; // El ID del usuario actual, ajusta según tu lógica de autenticación.
+            int usuario_id = 3; 
             decimal total = decimal.Parse(totaltxt.Text, System.Globalization.NumberStyles.Currency);
             int factura_id;
 
@@ -434,10 +434,20 @@ namespace PharmaGes
                             comandoDetalles.Parameters.AddWithValue("@precio", precio);
                             comandoDetalles.ExecuteNonQuery();
                         }
+
+                        // Actualizar el stock del medicamento
+                        string actualizarStock = "UPDATE medicamentos SET stock = stock - @cantidad WHERE id = @medicamento_id";
+                        using (SqlCommand comandoStock = new SqlCommand(actualizarStock, conexion))
+                        {
+                            comandoStock.Parameters.AddWithValue("@cantidad", cantidad);
+                            comandoStock.Parameters.AddWithValue("@medicamento_id", medicamento_id);
+                            comandoStock.ExecuteNonQuery();
+                        }
                     }
                 }
             }
         }
+
 
         private int ObtenerMedicamentoId(string nombre)
         {

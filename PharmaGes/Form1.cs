@@ -23,7 +23,7 @@ namespace PharmaGes
         {
             pnlNav.Height = MercaciaBtn.Height;
             pnlNav.Top = MercaciaBtn.Top;
-            lblTitle.Text = "Mercacia";
+            lblTitle.Text = "Mercancia";
             this.PnlFormLoader.Controls.Clear();
             Mercancia cargador_Vrb = new Mercancia() {  Dock = DockStyle.Fill, TopLevel = false, TopMost = true  };
             cargador_Vrb.FormBorderStyle = FormBorderStyle.None;

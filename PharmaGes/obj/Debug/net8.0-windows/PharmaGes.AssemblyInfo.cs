@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmaGes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+870386777ec3805362d1662d6b2f4069951be4d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991ae4efefb7340bf3c4a48334047d7134019153")]
 [assembly: System.Reflection.AssemblyProductAttribute("PharmaGes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmaGes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
