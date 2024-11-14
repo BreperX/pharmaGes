@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             pictureBox1 = new PictureBox();
             txtuser = new TextBox();
             txtpass = new TextBox();
@@ -117,6 +118,7 @@
             linkLabel1.TabIndex = 7;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Olvido la contraseña?";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Login
             // 
@@ -131,6 +133,7 @@
             Controls.Add(txtpass);
             Controls.Add(txtuser);
             Controls.Add(pictureBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MaximumSize = new Size(350, 400);
             MinimumSize = new Size(350, 400);

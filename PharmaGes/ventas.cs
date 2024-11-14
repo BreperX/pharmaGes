@@ -397,7 +397,9 @@ namespace PharmaGes
 
         private void GuardarFactura()
         {
-            int usuario_id = 3; 
+            try
+            { 
+            int usuario_id = 3;
             decimal total = decimal.Parse(totaltxt.Text, System.Globalization.NumberStyles.Currency);
             int factura_id;
 
@@ -446,6 +448,11 @@ namespace PharmaGes
                     }
                 }
             }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar la factura: " + ex.Message, "Error");
+            }
         }
 
 
@@ -459,7 +466,15 @@ namespace PharmaGes
                 using (SqlCommand comando = new SqlCommand(consulta, conexion))
                 {
                     comando.Parameters.AddWithValue("@nombre", nombre);
-                    medicamento_id = (int)comando.ExecuteScalar();
+                    object result = comando.ExecuteScalar();
+                    if (result != null)
+                    {
+                        medicamento_id = (int)result;
+                    }
+                    else
+                    {
+                        MessageBox.Show($"No se encontró el medicamento: {nombre}", "Error");
+                    }
                 }
             }
             return medicamento_id;

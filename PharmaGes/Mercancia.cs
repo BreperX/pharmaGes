@@ -322,9 +322,23 @@ namespace PharmaGes
                 return; // Salir del método si falta el código
             }
 
+            // Validar el stock
+            if (!int.TryParse(stocktxt.Text, out int stock))
+            {
+                MessageBox.Show("El stock debe ser un número entero válido.", "Error");
+                return;
+            }
+
+            // Validar el precio
+            if (!decimal.TryParse(preciotxt.Text, out decimal precio))
+            {
+                MessageBox.Show("El precio debe ser un número decimal válido.", "Error");
+                return;
+            }
+
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-CIKGIAC;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;"))
+                using (SqlConnection conexion = new SqlConnection(connectionString))
                 {
                     conexion.Open();
                     string consulta = "UPDATE medicamentos SET " +
@@ -340,8 +354,8 @@ namespace PharmaGes
                         comando.Parameters.AddWithValue("@nombre", nametxt.Text);
                         comando.Parameters.AddWithValue("@codigo", codigotxt.Text);
                         comando.Parameters.AddWithValue("@descripcion", descripciontxt.Text);
-                        comando.Parameters.AddWithValue("@stock", stocktxt.Text);
-                        comando.Parameters.AddWithValue("@precio", preciotxt.Text);
+                        comando.Parameters.AddWithValue("@stock", stock);
+                        comando.Parameters.AddWithValue("@precio", precio);
                         comando.Parameters.AddWithValue("@fecha_caducidad", DateTime.Parse(fecha.Text).ToString("yyyy-MM-dd"));
 
                         int num = comando.ExecuteNonQuery();
@@ -463,6 +477,7 @@ namespace PharmaGes
             // Refrescar el DataGridView
             llenar_tabla();
         }
+
 
     }
 }

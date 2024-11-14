@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             PanelMenu = new Panel();
             pnlNav = new Panel();
             NotificacionesBtn = new Button();
@@ -39,6 +41,8 @@
             panelTitleBar = new Panel();
             lblTitle = new Label();
             PnlFormLoader = new Panel();
+            Notificacion_ven = new NotifyIcon(components);
+            Notificacion_aca = new NotifyIcon(components);
             PanelMenu.SuspendLayout();
             panelTitleBar.SuspendLayout();
             SuspendLayout();
@@ -56,7 +60,7 @@
             PanelMenu.Dock = DockStyle.Left;
             PanelMenu.Location = new Point(0, 0);
             PanelMenu.Name = "PanelMenu";
-            PanelMenu.Size = new Size(220, 450);
+            PanelMenu.Size = new Size(220, 448);
             PanelMenu.TabIndex = 0;
             // 
             // pnlNav
@@ -194,20 +198,38 @@
             PnlFormLoader.Size = new Size(580, 370);
             PnlFormLoader.TabIndex = 2;
             // 
+            // Notificacion_ven
+            // 
+            Notificacion_ven.BalloonTipIcon = ToolTipIcon.Warning;
+            Notificacion_ven.BalloonTipText = "Uno o mas productos estan prontos a vencer, por favor revisar en el apartado de notificaciones";
+            Notificacion_ven.BalloonTipTitle = "Vencimiento de productos";
+            Notificacion_ven.Text = "vencimiento";
+            Notificacion_ven.Visible = true;
+            // 
+            // Notificacion_aca
+            // 
+            Notificacion_aca.BalloonTipIcon = ToolTipIcon.Warning;
+            Notificacion_aca.BalloonTipText = "Uno o mas productos estan prontos a acabar, por favor revisar en el apartado de notificaciones";
+            Notificacion_aca.BalloonTipTitle = "Agotamiento de productos";
+            Notificacion_aca.Text = "agotamiento";
+            Notificacion_aca.Visible = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 448);
             Controls.Add(PnlFormLoader);
             Controls.Add(panelTitleBar);
             Controls.Add(PanelMenu);
             ForeColor = Color.FromArgb(50, 52, 77);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
-            MaximumSize = new Size(816, 489);
-            MinimumSize = new Size(816, 489);
+            MaximumSize = new Size(816, 487);
+            MinimumSize = new Size(816, 487);
             Name = "Form1";
-            Text = "Form1";
+            Text = "PharmaGes";
+            FormClosed += Form1_FormClosed;
             Load += Form1_Load;
             PanelMenu.ResumeLayout(false);
             panelTitleBar.ResumeLayout(false);
@@ -229,5 +251,7 @@
         private Panel panel1;
         private Panel pnlNav;
         private Panel PnlFormLoader;
+        public NotifyIcon Notificacion_ven;
+        public NotifyIcon Notificacion_aca;
     }
 }

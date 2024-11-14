@@ -28,18 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            dataGridView1 = new DataGridView();
+            Productos = new Label();
+            dataGridView2 = new DataGridView();
             label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 33);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(556, 142);
+            dataGridView1.TabIndex = 0;
+            // 
+            // Productos
+            // 
+            Productos.AutoSize = true;
+            Productos.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Productos.Location = new Point(12, 9);
+            Productos.Name = "Productos";
+            Productos.Size = new Size(389, 21);
+            Productos.TabIndex = 19;
+            Productos.Text = "Los siguientes productos están prontos a agotarse";
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(12, 204);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.Size = new Size(556, 154);
+            dataGridView2.TabIndex = 20;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(30, 130);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 180);
             label1.Name = "label1";
-            label1.Size = new Size(512, 86);
-            label1.TabIndex = 0;
-            label1.Text = "En construccion";
+            label1.Size = new Size(477, 21);
+            label1.TabIndex = 21;
+            label1.Text = "Los siguientes productos están prontos vencer o ya vencieron";
             // 
             // Notificaciones
             // 
@@ -47,15 +78,23 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(580, 370);
             Controls.Add(label1);
+            Controls.Add(dataGridView2);
+            Controls.Add(Productos);
+            Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Notificaciones";
             Text = "Notificaciones";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dataGridView1;
+        private Label Productos;
+        private DataGridView dataGridView2;
         private Label label1;
     }
 }

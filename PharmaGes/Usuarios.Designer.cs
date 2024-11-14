@@ -53,6 +53,7 @@
             usuariosdgv.Size = new Size(450, 259);
             usuariosdgv.TabIndex = 0;
             usuariosdgv.CellClick += usuariosdgv_CellClick;
+            usuariosdgv.CellFormatting += usuariosdgv_CellFormatting;
             // 
             // BorrarBtn
             // 
@@ -113,22 +114,22 @@
             // emailtxt
             // 
             emailtxt.ForeColor = Color.Silver;
-            emailtxt.Location = new Point(12, 70);
+            emailtxt.Location = new Point(243, 70);
             emailtxt.Name = "emailtxt";
-            emailtxt.Size = new Size(225, 23);
+            emailtxt.Size = new Size(219, 23);
             emailtxt.TabIndex = 14;
-            emailtxt.Text = "CONTRASEÑA";
+            emailtxt.Text = "EMAIL";
             emailtxt.Enter += emailtxt_Enter;
             emailtxt.Leave += emailtxt_Leave;
             // 
             // passtxt
             // 
             passtxt.ForeColor = Color.Silver;
-            passtxt.Location = new Point(243, 70);
+            passtxt.Location = new Point(12, 70);
             passtxt.Name = "passtxt";
-            passtxt.Size = new Size(219, 23);
+            passtxt.Size = new Size(225, 23);
             passtxt.TabIndex = 15;
-            passtxt.Text = "EMAIL";
+            passtxt.Text = "CAMBIAR/AGREGAR CONTRASEÑA";
             passtxt.Enter += passtxt_Enter;
             passtxt.Leave += passtxt_Leave;
             // 

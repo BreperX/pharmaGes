@@ -83,3 +83,5 @@ C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\Newtons
 C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
 C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
 C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\itext.bouncy-castle-adapter.dll
+C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\brepe\source\repos\PharmaGes\PharmaGes\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
