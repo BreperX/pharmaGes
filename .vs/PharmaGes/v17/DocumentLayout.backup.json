@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\pharmages.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\pharmages.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,23 +75,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PharmaGes",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
-              "RelativeDocumentMoniker": "PharmaGes\\PharmaGes.csproj",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
-              "RelativeToolTip": "PharmaGes\\PharmaGes.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-30T22:19:35.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Login.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
-              "RelativeToolTip": "PharmaGes\\Login.cs",
+              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs*",
+              "RelativeToolTip": "PharmaGes\\Login.cs*",
               "ViewState": "AgIAACQAAAAAAAAAAAAowOAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T21:43:32.505Z",
@@ -103,19 +87,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Login.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Login.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "PharmaGes\\Login.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T21:43:21.672Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Usuarios.cs",
@@ -128,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Usuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Usuarios.cs",
@@ -140,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Reportes.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Reportes.cs",
@@ -153,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Reportes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Reportes.cs",
@@ -165,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Program.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Program.cs",
@@ -178,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Notificaciones.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Notificaciones.cs",
@@ -191,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Notificaciones.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Notificaciones.cs",
@@ -203,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Mercancia.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Mercancia.cs",
@@ -216,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Mercancia.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Mercancia.cs",
@@ -228,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "cargador.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs",
               "RelativeDocumentMoniker": "PharmaGes\\cargador.cs",
@@ -241,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "cargador.Designer.cs",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.Designer.cs",
               "RelativeDocumentMoniker": "PharmaGes\\cargador.Designer.cs",
@@ -254,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "cargador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs",
               "RelativeDocumentMoniker": "PharmaGes\\cargador.cs",
@@ -266,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ventas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\ventas.cs",
               "RelativeDocumentMoniker": "PharmaGes\\ventas.cs",

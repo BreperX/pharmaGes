@@ -14,7 +14,13 @@ namespace PharmaGes
 {
     public partial class Login : Form
     {
-        private const string connectionString = "Data Source=DESKTOP-CIKGIAC;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False";
+        private const string connectionString = "Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;";
+
+        // Contador de intentos fallidos
+        private int failedAttempts = 0;
+        private const int MaxAttempts = 5;
+        private DateTime lastFailedAttemptTime;
+
 
         public Login()
         {
@@ -29,10 +35,15 @@ namespace PharmaGes
                 {
                     connection.Open();
 
-                    // Consulta para obtener el rol_id y la contraseña
-                    string query = "SELECT contrasena, r.id AS rol_id FROM usuarios u JOIN roles r ON u.rol_id = r.id WHERE LOWER(email) = LOWER(@Email)";
+                    string query = @"
+                        SELECT contrasena, r.id AS rol_id 
+                        FROM usuarios u 
+                        JOIN roles r ON u.rol_id = r.id 
+                        WHERE LOWER(email) = LOWER(@Email)";
+
                     using (SqlCommand cmd = new SqlCommand(query, connection))
                     {
+                        // Uso seguro de parámetros (ya estabas haciéndolo bien 👍)
                         cmd.Parameters.AddWithValue("@Email", email);
 
                         using (SqlDataReader reader = cmd.ExecuteReader())
@@ -42,12 +53,12 @@ namespace PharmaGes
                                 string storedPasswordHash = reader["contrasena"] as string;
                                 int rolId = Convert.ToInt32(reader["rol_id"]);
 
-                                // Convertir el rol_id a su nombre correspondiente
                                 string rol = ConvertRoleIdToString(rolId);
 
-                                // Verificar la contraseña
                                 if (storedPasswordHash != null && VerifyPasswordHash(password, storedPasswordHash))
                                 {
+                                    // Reiniciar el contador de intentos fallidos
+                                    failedAttempts = 0;
                                     return (true, rol);
                                 }
                             }
@@ -57,7 +68,9 @@ namespace PharmaGes
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message, "Error Inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // No mostrar mensajes de error detallados al usuario final
+                MessageBox.Show("Se produjo un error. Intenta nuevamente más tarde.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Console.WriteLine("Error interno: " + ex.Message); // Para registro interno
             }
             return (false, null);
         }
@@ -70,7 +83,7 @@ namespace PharmaGes
                 var sb = new StringBuilder();
                 foreach (var b in bytes)
                 {
-                    sb.Append(b.ToString("X2")); // Convertir a hexadecimal en mayúsculas
+                    sb.Append(b.ToString("X2"));
                 }
                 return sb.ToString();
             }
@@ -79,9 +92,7 @@ namespace PharmaGes
         private bool VerifyPasswordHash(string password, string storedHash)
         {
             string hashOfInput = HashPassword(password);
-            // Eliminamos la línea de depuración
-            // MessageBox.Show($"Hash ingresado: {hashOfInput}\nHash almacenado: {storedHash}"); // Para depuración
-            return hashOfInput == storedHash;
+            return hashOfInput.Equals(storedHash, StringComparison.OrdinalIgnoreCase);
         }
 
         private void txtuser_Enter(object sender, EventArgs e)
@@ -124,40 +135,105 @@ namespace PharmaGes
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            string email = txtuser.Text;
+            // Siempre aseguramos que la contraseña esté oculta
+            txtpass.UseSystemPasswordChar = true;
+
+            // Verificar si el usuario está bloqueado
+            if (IsUserBlocked())
+            {
+                TimeSpan tiempoBloqueo = GetBlockingTime();
+                MessageBox.Show($"Has superado el número máximo de intentos. Intenta nuevamente en {tiempoBloqueo.Minutes} minuto(s).", "Bloqueado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Obtener y limpiar los datos ingresados
+            string email = txtuser.Text.Trim();
             string password = txtpass.Text;
 
-            // Realizar el intento de inicio de sesión
+            if (!ValidateFields(email, password))
+            {
+                MessageBox.Show("Por favor, ingresa tus credenciales.", "Campos Vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Intentar inicio de sesión
             var (isLoggedIn, userRole) = Loginform(email, password);
             if (isLoggedIn)
             {
                 MessageBox.Show("Inicio de sesión exitoso", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Pasar el rol del usuario a Form1
-                Form1 form1 = new Form1(userRole); // Aquí pasamos el userRole al constructor de Form1
+                Form1 form1 = new Form1(userRole);
                 form1.Show();
-
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                failedAttempts++;
+                lastFailedAttemptTime = DateTime.Now;
+
+                int remainingAttempts = MaxAttempts - (failedAttempts % MaxAttempts);
+                string mensaje = remainingAttempts > 0
+                    ? $"Usuario o contraseña incorrectos. Te quedan {remainingAttempts} intento(s)."
+                    : "Has alcanzado el número máximo de intentos. Intenta más tarde.";
+
+                MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            // Limpiar la contraseña
+            txtpass.Clear();
         }
+
+        /// <summary>
+        /// Calcula el tiempo de espera según la cantidad de bloqueos acumulados.
+        /// </summary>
+        private TimeSpan GetBlockingTime()
+        {
+            // Tiempo base de bloqueo
+            TimeSpan baseBlockTime = TimeSpan.FromMinutes(1);
+
+            // Calcula cuántas veces se ha excedido en múltiplos de 5
+            int bloqueosPrevios = failedAttempts / MaxAttempts; // MaxAttempts = 5
+            double multiplier = Math.Pow(2, bloqueosPrevios);
+
+            return TimeSpan.FromMinutes(baseBlockTime.TotalMinutes * multiplier);
+        }
+
+        /// <summary>
+        /// Verifica si el usuario está bloqueado.
+        /// </summary>
+        private bool IsUserBlocked()
+        {
+            if (failedAttempts < MaxAttempts)
+                return false;
+
+            TimeSpan tiempoBloqueo = GetBlockingTime();
+            if (DateTime.Now - lastFailedAttemptTime < tiempoBloqueo)
+                return true;
+
+            // Reiniciar el conteo de intentos después del bloqueo
+            failedAttempts = 0;
+            return false;
+        }
+
+        /// <summary>
+        /// Valida que los campos no estén vacíos.
+        /// </summary>
+        private bool ValidateFields(string email, string password)
+        {
+            return !(string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password) ||
+                     email == "USUARIO" || password == "CONTRASEÑA");
+        }
+
+
 
         // Método para convertir el rol_id (número) a su nombre correspondiente
         private string ConvertRoleIdToString(int rolId)
         {
             switch (rolId)
             {
-                case 1:
-                    return "admin";    // Admin
-                case 2:
-                    return "gerente";  // Gerente
-                case 3:
-                    return "empleado"; // Empleado
-                default:
-                    return "Unknown";  // Si no es un rol reconocido
+                case 1: return "admin";
+                case 2: return "gerente";
+                case 3: return "empleado";
+                default: return "Unknown";
             }
         }
 

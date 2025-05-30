@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brepe\\source\\repos\\PharmaGes\\PharmaGes\\PharmaGes.csproj": {}
+    "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brepe\\source\\repos\\PharmaGes\\PharmaGes\\PharmaGes.csproj": {
+    "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brepe\\source\\repos\\PharmaGes\\PharmaGes\\PharmaGes.csproj",
+        "projectUniqueName": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
         "projectName": "PharmaGes",
-        "projectPath": "C:\\Users\\brepe\\source\\repos\\PharmaGes\\PharmaGes\\PharmaGes.csproj",
+        "projectPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
         "packagesPath": "C:\\Users\\brepe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brepe\\source\\repos\\PharmaGes\\PharmaGes\\obj\\",
+        "outputPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -89,7 +90,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
