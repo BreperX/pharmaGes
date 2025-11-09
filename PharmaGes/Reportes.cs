@@ -12,7 +12,7 @@ namespace PharmaGes
 {
     public partial class Reportes : Form
     {
-        private string connectionString = "Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;";
+        private string connectionString = "Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n";
 
         // Variable para determinar el tipo de reporte
         private string tipoReporte = "";

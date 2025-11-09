@@ -1,70 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\",
+  "WorkspaceRootPath": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\pharmages.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\pharmages.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\mercancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\mercancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\mercancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\mercancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\mercancia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\cargador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\cargador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\cargador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\cargador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\downloads\\pharmages-main1\\pharmages-main\\pharmages\\cargador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\cargador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\pharmages\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|c:\\users\\brepe\\source\\repos\\pharmages\\pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74AD277-F9B0-4A46-A0E9-28C747BCCB7A}|PharmaGes\\PharmaGes.csproj|solutionrelative:pharmages\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,207 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PharmaGes",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
-              "RelativeDocumentMoniker": "PharmaGes\\PharmaGes.csproj",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
-              "RelativeToolTip": "PharmaGes\\PharmaGes.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-30T22:19:35.532Z",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Form1.cs",
+              "RelativeDocumentMoniker": "PharmaGes\\Form1.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Form1.cs",
+              "RelativeToolTip": "PharmaGes\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:55:22.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Login.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Login.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Login.cs",
               "RelativeToolTip": "PharmaGes\\Login.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowOAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAADwv/UAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T21:43:32.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Login.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:43:21.672Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs",
-              "RelativeToolTip": "PharmaGes\\Usuarios.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:43:15.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Usuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Usuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:43:13.239Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Reportes.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Reportes.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs",
-              "RelativeToolTip": "PharmaGes\\Reportes.cs",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:43:05.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Reportes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Reportes.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Reportes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Reportes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:43:01.871Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Program.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Program.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Program.cs",
-              "RelativeToolTip": "PharmaGes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:42:58.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Notificaciones.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Notificaciones.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs",
-              "RelativeToolTip": "PharmaGes\\Notificaciones.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwAkAAADeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:42:35.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Notificaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Notificaciones.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Notificaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Notificaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:42:30.399Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Mercancia.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Mercancia.cs",
               "RelativeDocumentMoniker": "PharmaGes\\Mercancia.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Mercancia.cs",
               "RelativeToolTip": "PharmaGes\\Mercancia.cs",
-              "ViewState": "AgIAANQBAAAAAAAAAAAIwIwBAADwAAAAAAAAAA==",
+              "ViewState": "AgIAANABAAAAAAAAAADwv+UBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T21:40:57.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mercancia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\Mercancia.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\Mercancia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\Mercancia.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "Notificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Notificaciones.cs",
+              "RelativeDocumentMoniker": "PharmaGes\\Notificaciones.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Notificaciones.cs",
+              "RelativeToolTip": "PharmaGes\\Notificaciones.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:40:55.883Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "cargador.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\cargador.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs",
-              "RelativeToolTip": "PharmaGes\\cargador.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:40:47.456Z",
+              "WhenOpened": "2025-05-30T21:42:35.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "cargador.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.Designer.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\cargador.Designer.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.Designer.cs",
-              "RelativeToolTip": "PharmaGes\\cargador.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Reportes.cs",
+              "RelativeDocumentMoniker": "PharmaGes\\Reportes.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Reportes.cs",
+              "RelativeToolTip": "PharmaGes\\Reportes.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAswPUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:40:35.829Z",
+              "WhenOpened": "2025-05-30T21:43:05.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "cargador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs",
-              "RelativeDocumentMoniker": "PharmaGes\\cargador.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\cargador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\cargador.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Usuarios.cs",
+              "RelativeDocumentMoniker": "PharmaGes\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\Usuarios.cs",
+              "RelativeToolTip": "PharmaGes\\Usuarios.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAUwJUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T21:40:30.475Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-30T21:43:15.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ventas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\ventas.cs",
+              "DocumentIndex": 0,
+              "Title": "ventas.cs",
+              "DocumentMoniker": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\ventas.cs",
               "RelativeDocumentMoniker": "PharmaGes\\ventas.cs",
-              "ToolTip": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\ventas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PharmaGes\\ventas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\brepe\\source\\repos\\pharmaGes\\PharmaGes\\ventas.cs",
+              "RelativeToolTip": "PharmaGes\\ventas.cs",
+              "ViewState": "AgIAAJwBAAAAAAAAAAAtwKYBAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:07:01.645Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-09T17:51:52.68Z",
+              "EditorCaption": ""
             }
           ]
         }

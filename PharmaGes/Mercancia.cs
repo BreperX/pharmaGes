@@ -16,7 +16,7 @@ namespace PharmaGes
 {
     public partial class Mercancia : Form
     {
-        private readonly string connectionString = "Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;";
+        private readonly string connectionString = "Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n";
 
         public Mercancia()
         {
@@ -31,7 +31,7 @@ namespace PharmaGes
 
         public void llenar_tabla()
         {
-            using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+            using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
             {
                 conexion.Open();
                 string consulta = "SELECT codigo, nombre, descripcion, stock, precio, fecha_caducidad FROM medicamentos";
@@ -171,7 +171,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source = database.ctyyk2iy2mst.us - east - 2.rds.amazonaws.com, 1433; Initial Catalog = PharmaGes; User ID = admin; Password = adminadmin; Encrypt = True; TrustServerCertificate = True; "))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "SELECT codigo, nombre, descripcion, stock, precio, fecha_caducidad FROM medicamentos WHERE " +
@@ -264,7 +264,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
 
@@ -394,7 +394,7 @@ namespace PharmaGes
             {
                 try
                 {
-                    using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                    using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                     {
                         conexion.Open();
                         string consulta = "delete from medicamentos where codigo=@codigo"; // Usar parámetros para evitar inyección SQL

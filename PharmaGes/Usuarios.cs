@@ -32,7 +32,7 @@ namespace PharmaGes
         {
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;"))
                 {
                     conexion.Open();
                     string consulta = "SELECT id, nombre FROM roles";
@@ -138,7 +138,7 @@ namespace PharmaGes
             }
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source = database.ctyyk2iy2mst.us - east - 2.rds.amazonaws.com, 1433; Initial Catalog = PharmaGes; User ID = admin; Password = adminadmin; Encrypt = True; TrustServerCertificate = True; "))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "SELECT * FROM usuarios WHERE nombre LIKE @busqueda OR email LIKE @busqueda";
@@ -166,7 +166,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "SELECT u.id, u.nombre, u.email, u.contrasena, r.nombre AS rol FROM usuarios u JOIN roles r ON u.rol_id = r.id";
@@ -211,7 +211,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source = database.ctyyk2iy2mst.us - east - 2.rds.amazonaws.com, 1433; Initial Catalog = PharmaGes; User ID = admin; Password = adminadmin; Encrypt = True; TrustServerCertificate = True; "))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "INSERT INTO usuarios (nombre, email, contrasena, rol_id) VALUES (@nombre, @email, @contrasena, @rol_id)";
@@ -268,7 +268,7 @@ namespace PharmaGes
 
                 try
                 {
-                    using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                    using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                     {
                         conexion.Open();
                         string consulta = "UPDATE usuarios SET nombre = @nombre, email = @email, contrasena = @contrasena, rol_id = @rol_id WHERE id = @id";
@@ -319,7 +319,7 @@ namespace PharmaGes
 
                 try
                 {
-                    using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                    using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                     {
                         conexion.Open();
                         string consulta = "DELETE FROM usuarios WHERE id = @id";

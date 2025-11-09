@@ -165,7 +165,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "SELECT nombre, stock, precio FROM medicamentos WHERE codigo LIKE @busqueda OR nombre LIKE @busqueda";
@@ -273,7 +273,7 @@ namespace PharmaGes
 
             try
             {
-                using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+                using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
                 {
                     conexion.Open();
                     string consulta = "SELECT stock FROM medicamentos WHERE nombre = @nombre";
@@ -399,11 +399,11 @@ namespace PharmaGes
         {
             try
             { 
-            int usuario_id = 3;
+            int usuario_id = 1;
             decimal total = decimal.Parse(totaltxt.Text, System.Globalization.NumberStyles.Currency);
             int factura_id;
 
-            using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+            using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
             {
                 conexion.Open();
                 string consultaFactura = "INSERT INTO facturas (usuario_id, total) OUTPUT INSERTED.id VALUES (@usuario_id, @total)";
@@ -459,7 +459,7 @@ namespace PharmaGes
         private int ObtenerMedicamentoId(string nombre)
         {
             int medicamento_id = 0;
-            using (SqlConnection conexion = new SqlConnection("Data Source=database.ctyyk2iy2mst.us-east-2.rds.amazonaws.com,1433;Initial Catalog=PharmaGes;User ID=admin;Password=adminadmin;Encrypt=True;TrustServerCertificate=True;"))
+            using (SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-ATVMJU1;Initial Catalog=PharmaGes;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;\r\n"))
             {
                 conexion.Open();
                 string consulta = "SELECT id FROM medicamentos WHERE nombre = @nombre";

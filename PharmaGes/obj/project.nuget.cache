@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pCe5ZTCMESw=",
+  "dgSpecHash": "nCGd9MuxBNo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+  "projectFilePath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brepe\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\brepe\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -122,9 +122,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
-      "projectPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "projectPath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "filePath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net8.0-windows7.0"
@@ -134,9 +134,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
-      "projectPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "projectPath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "filePath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net8.0-windows7.0"
@@ -146,9 +146,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
-      "projectPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "projectPath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "filePath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net8.0-windows7.0"
@@ -158,9 +158,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"BouncyCastle 1.8.9\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "projectPath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\brepe\\Downloads\\pharmaGes-main1\\pharmaGes-main\\PharmaGes\\PharmaGes.csproj",
+      "filePath": "C:\\Users\\brepe\\Source\\Repos\\pharmaGes\\PharmaGes\\PharmaGes.csproj",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net8.0-windows7.0"
